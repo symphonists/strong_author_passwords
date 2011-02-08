@@ -20,7 +20,7 @@ var StrongAuthorPasswords = {
 		var valid = true;
 		
 		password.live('keyup', function() {
-			valid = self.check_password_strength( $(this).val() );
+			valid = self.check_password_strength( jQuery(this).val() );
 			if(!valid) {
 				submit_button.attr('disabled', 'disabled');
 			} else {
