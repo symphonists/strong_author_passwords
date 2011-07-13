@@ -6,6 +6,7 @@ var StrongAuthorPasswords = {
 		var self = this;
 		
 		var password = jQuery('input[name="fields[password]"]');
+		
 		this.criteria = jQuery(
 			'<ul id="strong-author-password-criteria">\
 		 		<li class="length">15 characters in length</li>\
@@ -20,6 +21,7 @@ var StrongAuthorPasswords = {
 		var valid = true;
 		
 		password.live('keyup', function() {
+			if(!password.parent().is(':visible')) return;
 			valid = self.check_password_strength( jQuery(this).val() );
 			if(!valid) {
 				submit_button.attr('disabled', 'disabled');
