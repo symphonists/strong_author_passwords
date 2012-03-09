@@ -18,6 +18,7 @@
 		<item type="image" url="http://symphonyextensions.com/nickdunn/strong_author_passwords/media/strong_author_passwords.png">Strong Author Passwords: Enforce strict password rules when creating an author</item>
 	</media>
 	<releases>
-		<release version="1.0" date="2011-02-08" min="2.0.6" />
+		<release version="1.1" date="2012-03-09" min="2.3.x" />
+		<release version="1.0" date="2011-02-08" min="2.0.6" max="2.2.5" />
 	</releases>
 </extension>

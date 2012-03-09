@@ -17,7 +17,7 @@ var StrongAuthorPasswords = {
 			</ul>');
 		password.parent().append(this.criteria);
 		
-		var submit_button = jQuery('form').find('*[type="submit"]');
+		var submit_button = jQuery('form').find('input[name="action[save]"]');
 		var valid = true;
 		
 		password.live('keyup', function() {
