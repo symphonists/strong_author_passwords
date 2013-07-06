@@ -2,13 +2,16 @@
 <extension id="strong_author_passwords" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
 	<name>Strong Author Passwords</name>
 	<description>Enforce strict password rules when creating an author</description>
-	<repo type="github">https://github.com/nickdunn/strong_author_passwords</repo>
+	<repo type="github">https://github.com/symphonists/strong_author_passwords</repo>
 	<url type="discuss">http://symphony-cms.com/discuss/thread/61174/</url>
 	<types>
 		<type>Workflow</type>
 		<type>Security</type>
 	</types>
 	<authors>
+		<author>
+	        	<name github="symphonists" symphony="community">Symphony Community</name>
+    		</author>
 		<author>
 			<name github="nickdunn" symphony="nickdunn">Nick Dunn</name>
 			<website>http://nick-dunn.co.uk</website>
